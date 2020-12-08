@@ -24,6 +24,10 @@ docker pull docker.elastic.co/elasticsearch/elasticsearch:7.10.0
 docker run -p 9200:9200 -p 9300:9300 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.10.0
 ```
 
-* Create Index for auto-suggest functionality
+* Create index for auto-suggest functionality
   * *Edge n-gram Tokenizer*: To match partial/full keywords. (We are using this here)
   * *Completion Suggester*: Basic autocomplete without spell check; Good performance.
+
+* Create records and insert to the index
+
+* Create query API

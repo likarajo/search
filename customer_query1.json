@@ -1,0 +1,7 @@
+POST  http://localhost:9200/crm_app/customers/_search
+{
+  "query": {
+    "match": {
+      "fullName": "geller"
+   }
+}

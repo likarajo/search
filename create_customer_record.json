@@ -1,0 +1,36 @@
+POST  http://localhost:9200/app/customers
+{
+    "fullName": "Rachel Karen Green",
+    "shortCode": "RKG10",
+    "createdDate": "2018-10-10"
+}
+POST  http://localhost:9200/app/customers
+{
+    "fullName": "Monica Eustace Geller",
+    "shortCode": "MEG52",
+    "createdDate": "2018-01-12"
+}
+POST  http://localhost:9200/app/customers
+{
+    "fullName": "Ross Eustace Geller",
+    "shortCode": "REG12",
+    "createdDate": "2018-02-21"
+}
+POST  http://localhost:9200/app/customers
+{
+    "fullName": "Chandler Muriel Bing",
+    "shortCode": "CMB14",
+    "createdDate": "2018-02-21"
+}
+POST  http://localhost:9200/app/customers
+{
+    "fullName": "Phoebe Buffay",
+    "shortCode": "PBF01",
+    "createdDate": "2018-04-12"
+}
+POST  http://localhost:9200/app/customers
+{
+    "fullName": "Joey Francis Tribbiani",
+    "shortCode": "JFT99",
+    "createdDate": "2018-05-15"
+}

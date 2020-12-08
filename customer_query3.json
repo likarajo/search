@@ -1,0 +1,10 @@
+POST  http://localhost:9200/crm_app/customers/_search
+{
+  "query": {
+      "multi_match": {
+          "query": "CMB14",
+          "fields": ["fullName", "shortCode"]
+       }
+  },
+  "sort": ["_score", {"createdDate": "desc"}]
+}
